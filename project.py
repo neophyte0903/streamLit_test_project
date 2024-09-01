@@ -13,8 +13,8 @@ b=st.checkbox('are you looking for loan')
 if b==1:
     st.write('welcome to the eligibility interface')
 
-st,sidebar.write('Policies')
-st.sidebar.write("1. lorem\n2.ipsum\n3. dolor\n")
+st.sidebar.title('Policies')
+st.sidebar.write("1. lorem\n2. ipsum\n3. dolor\n")
 st.sidebar.button('accept')
 
 
